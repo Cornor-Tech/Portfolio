@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http_equiv="X_UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device_width, initial_scale=1.0">
+    <title>Birat-Portfolio</title>
+    <link rel="stylesheet" href="Birat.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Particles.js library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+   
+</head>
+
+<body>
+    <!-- Particle.js background container -->
+    <div id="particles-js"></div>
+
+    <div class="preloader">
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            <nav class="navbar">
+                <a href="#" style="--i:1;" class="active">Home</a>
+                <a href="#" style="--i:2;">About</a>
+                <a href="#skills.html" style="--i:3;">Skills</a>
+                <a href="#" style="--i:4;">Portfolio</a>
+                <a href="#" style="--i:5;">Contact</a>
+            </nav>
+        </header>
+        <section class="home">
+            <div class="home-content">
+                <h1>Hello, It's Me</h1>
+                <h2>Birat Pandey</h2>
+                <h3>And I'm a <span class="multiple-text">Front-end Developer</span></h3>
+                <p>
+                    Hello, I'm Birat, a versatile creative professional with a passion for bringing digital
+                    dreams to life. I excel as a Web Designer, Web Developer, Programmer, and Front-end Developer. My
+                    journey in the world of technology and design has been a thrilling adventure, and I'm excited to share a
+                    bit of that journey with you.
+                </p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/birat.pandey.7169?" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" style="--i:8;"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" style="--i:9;"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" style="--i:10;"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="#" class="btn">Hire Me</a>
+            </div>
+            <div class="home-img">
+                <img src="Birat.webp.png" alt="Birat Pandey">
+            </div>
+        </section>
+
+        <!-----------Skills---------->
+
+
+        <div class="skills_section">
+            <div class="skills_head">
+                <h2>My <span>Skills</span></h2>
+                <p>Here are my skills to represent my Expertise</p>
+            </div>
+    
+            <div class="skills_main">
+                <div class="skill_bar">
+                    <div class="info">
+                        <i class="fab fa-html5"   style="color: rgb(246, 118, 14);"></i> 
+                        <p>HTML</p>
+                        <P>90%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="html" id="htmlBar"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <i class="fab fa-css3-alt"  style="color: blue;"></i>
+                        <p>CSS</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+              
+                <div class="skill_bar">
+                    <div class="info">
+                        <i class="fab fa-c" style="color: blue;"></i> 
+                        <p>C</p>
+                        <P>40%</P> 
+                    </div>
+                    <div class="bar">
+                        <span class="c"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <i class="fab fa-js"  style="color: yellow;"></i>
+                        <p>JavaScript</p>
+                        <P>30%</P> 
+                    </div>
+                    <div class="bar">
+                        <span class="js"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <i class="fab fa-sass" style="color: rgb(240, 113, 174);"></i>
+                        <p>SASS</p>
+                        <P>0%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="sass"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <i class="fab fa-react"></i> 
+                        <p>React.js</p>
+                        <P>0%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="react"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <i class="fab fa-node" style="color: green;"></i>
+                        <p>Node.js</p>
+                        <P>0%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="node"></span>
+                    </div>
+                </div>
+               
+                <div class="skill_bar">
+                    <div class="info">
+                        <i class="fas fa-database" style="color: green;"></i> 
+                        <p>MongoDB</p>
+                        <P>0%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="mongo"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="script.js"></script>
+        <script>
+            var typed = new Typed(".multiple-text", {
+                strings: ["Web Designer", "Web Developer", "Programmer", "Freelancer"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                backDelay: 1000,
+                loop: true
+            });
+
+            // Particle.js background script
+            particlesJS('particles-js', {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 3,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 200,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 50,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200
+                        },
+                        "push": {
+                            "particles_nb": 1000
+                        },
+                        "remove": {
+                            "particles_nb": 10
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+        </script>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+                    const skillBars = document.querySelectorAll(".skill_bar");
+                     skillBars.forEach((skillBar) => {
+                const percentage = parseInt(skillBar.querySelector("p:last-child").textContent, 10);
+                               const barElement = skillBar.querySelector(".bar span");
+                barElement.style.width = percentage + "%";
+            });
+        });
+    </script>
+</body>
+
+</html>
